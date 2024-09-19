@@ -1,0 +1,84 @@
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: white; /* Default background */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-bar.scrolled {
+  background-color: rgba(255, 255, 255, 0.9); /* White with 50% transparency */
+}
+
+
+
+.logo-container {
+  flex: 1; /* Ensures logo takes up available space */
+  display: flex;
+  justify-content: left; /* Center logo */
+  margin-top: 10px;
+}
+
+.logo {
+  height: 40px; /* Adjust the size of the logo */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.nav-link {
+  color: #001C38; /* Default text color */
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 15px;
+}
+
+.nav-bar.scrolled .nav-link {
+  color: black; /* Text color when scrolled */
+}
+
+/* .nav-link:hover {
+  text-decoration: underline;
+} */
+
+
+
+
+.logout-button {
+  background: none; /* No background for the button */
+  border: none; /* Remove border */
+  color: #5cc6d0; /* Match the text color of nav links */
+  font-size: 15px; /* Match the font size of nav links */
+  margin: 10px; /* Match the margin of nav links */
+  cursor: pointer; /* Pointer cursor for button */
+  text-decoration: none; /* Remove underline */
+  width: 15%;
+  height: 55%;
+  margin-right: 20px;
+  outline: 1px solid #5cc6d0; /* Adjust color and thickness as needed */
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  /* Add hover effect to change outline color if desired */
+  outline-color: #5cc6d0; /* Change outline color on hover */
+}
+
+
+.nav-bar.scrolled .logout-button {
+  color: black; /* Text color when scrolled */
+}
+
+.logout-button:hover {
+  background-color: #5cc6d0;
+  color: white;
+}

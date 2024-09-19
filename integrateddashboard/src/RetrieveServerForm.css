@@ -1,0 +1,59 @@
+.retrieve-server-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #5CC6D0;
+}
+
+.retrieve-server-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.retrieve-server-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.retrieve-server-container label {
+  margin-bottom: 8px;
+}
+
+.retrieve-server-container input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.retrieve-server-container button {
+  padding: 10px;
+  background-color: #001C38;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.retrieve-server-container button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+.server-details {
+  margin-top: 20px;
+}
+
+.server-details h3 {
+  text-align: center;
+}
+
+.server-details p {
+  margin: 4px 0;
+}

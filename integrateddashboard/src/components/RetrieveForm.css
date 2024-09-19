@@ -1,0 +1,68 @@
+.retrieve-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #5CC6D0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.retrieve-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.retrieve-form label {
+  margin: 10px 0 5px;
+}
+
+.retrieve-form select,
+.retrieve-form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #001C38;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.loading-message {
+  font-size: 1.2em;
+  color: #007bff;
+}
+
+.error-message {
+  color: red;
+}
+
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.result-table th,
+.result-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.result-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.result-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

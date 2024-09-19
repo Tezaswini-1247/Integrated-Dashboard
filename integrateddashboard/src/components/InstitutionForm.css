@@ -1,0 +1,143 @@
+/* src/components/InstitutionForm.css */
+body {
+  background-color: white; /* Changed entire background color */
+  margin: 0; /* Ensure no default margin */
+  padding: 0; /* Ensure no default padding */
+  font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #5cc6d0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: black; /* Change heading color to white for contrast */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #001C38; /* Change label color to white for contrast */
+}
+
+input, select, button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5cc6d0;
+}
+
+.message {
+  margin-top: 10px;
+  text-align: center;
+  color: green;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form-container, .message-container {
+  background-color: #5CC6D0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 45%; /* Adjust width for both divs */
+}
+
+.form-header h1, .message-container h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #fff; /* Change text color to white */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fff; /* Change label color to white */
+}
+
+form input, form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #001C38;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 20%
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2em;
+  color: black;
+  background-color: white;
+  padding: 30px;
+}
+
+.message-container h1 {
+  margin-bottom: 20px;
+  color: #001C38;
+}
+
+
+
+.motivational-image {
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust height as needed */
+  
+  margin-top: 20px; /* Space above the image */
+}
